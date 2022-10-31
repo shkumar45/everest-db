@@ -10,3 +10,9 @@ CREATE TABLE employee (
 -- insert into "employee"(email, first_name, last_name )  VALUES ('skumar@everest.com', 'Shankar', 'Kumar');
 -- insert into "employee"(email, first_name, last_name )  VALUES ('jpatil@everest.com', 'Jayant', 'Patil');
 -- select * from "employee"
+
+--CREATE PROCEDURE count_employees() 
+--LANGUAGE SQL
+--AS $$ 
+--  SELECT count(*) from employee where first_name like 'S%'
+--$$;
