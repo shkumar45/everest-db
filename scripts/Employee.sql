@@ -10,3 +10,7 @@ CREATE TABLE employee (
 -- insert into "employee"(email, first_name, last_name )  VALUES ('skumar@everest.com', 'Shankar', 'Kumar');
 -- insert into "employee"(email, first_name, last_name )  VALUES ('jpatil@everest.com', 'Jayant', 'Patil');
 -- select * from "employee"
+
+ALTER TABLE employee(
+	ADD Column departmentId INT8 NOT NULL default 1
+)
